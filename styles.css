@@ -7,7 +7,7 @@ html, body {
 
 body {
     line-height: 1.6;
-    background: url('images/background.png') no-repeat center center fixed; /* Set background image */
+    /* background: url('images/background.png') no-repeat center center fixed; Set background image */
     background-size: cover; /* Cover the whole area */
     /* overflow: hidden; Prevent scrolling */
 }
@@ -17,7 +17,6 @@ body {
     position: relative; /* For positioning the card */
     z-index: 1; /* Make sure card is above the background */
 }
-
 
 /* Social Media Icons Styling */
 .social-icons {
