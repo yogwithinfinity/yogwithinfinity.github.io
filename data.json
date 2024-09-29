@@ -1,15 +1,24 @@
 {
   "title": "Namaskaram",
-  "description": "I'm a certified yoga teacher with a passion for helping others find balance and peace through yoga. Join me for online yoga sessions!",
+  "description": "As a certified and passionate yoga instructor, [Instructor Name] brings over [X] years of experience to guide individuals through the transformative journey of yoga. Specializing in Live Online Classes, Yoga Workshops, and Personalized Yoga Plans, [Instructor Name] caters to all skill levels, from beginners to advanced practitioners.",
   "offerings": [
-    "Live Online Classes",
-    "Yoga Workshops",
-    "Personalized Yoga Plans"
+    {
+      "title": "Live Online Classes",
+      "description": "Accessible from the comfort of your home, these interactive sessions focus on improving flexibility, strength, mindfulness, and overall well-being. With real-time guidance and personalized adjustments, students receive the same attention they would in a physical studio."
+    },
+    {
+      "title": "Yoga Workshops",
+      "description": "Immersive, in-depth workshops designed to deepen your practice, whether focusing on specific techniques, breathing exercises (Pranayama), or meditation. These sessions provide tools for holistic health and stress management."
+    },
+    {
+      "title": "Personalized Yoga Plans",
+      "description": "Tailored yoga programs based on your unique goals and needs. Whether you're looking to build strength, increase flexibility, relieve stress, or recover from injury, [Instructor Name] develops custom plans for sustainable growth and well-being."
+    }
   ],
   "socialLinks": {
     "facebook": "https://www.facebook.com/people/Poonam-Negi/100011151756659/?mibextid=ZbWKwL",
     "instagram": "https://www.instagram.com/yogwithinfinity/",
-    "youtube": "https://www.instagram.com/yogwithinfinity/",
+    "youtube": "https://www.youtube.com/@rootedsoul1433",
     "gmail": "mailto:poonamnegi579@gmail.com"
   },
   "copyright": "&copy; 2024 Poonam Negi"

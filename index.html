@@ -1,49 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Yoga Teacher Portfolio</title>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Rubik&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-    />
-    <link rel="stylesheet" href="styles.css" />
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Yoga Teacher Portfolio</title>
+      <link
+        rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Rubik&display=swap"
+        rel="stylesheet"
+      />
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      />
+      <link rel="stylesheet" href="styles.css" />
+    </head>
   </head>
   <body>
-    <div
-      class="container d-flex justify-content-center align-items-center"
-      style="height: 100vh"
-    >
-      <div class="card elevation">
-        <div class="row no-gutters">
-          <div class="col-md-6">
-            <img src="images/profile.jpeg" alt="Yoga Pose" class="card-img" />
-          </div>
-          <div class="col-md-6">
-            <div
-              class="card-body d-flex flex-column justify-content-between"
-              style="height: 100%"
-            >
-              <div>
+    <div class="container-fluid">
+      <div class="row mt-5 mb-5">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+          <div>
+            <div class="card rounded">
+              <img
+                class="card-img img-fluid"
+                src="images/profile.jpeg"
+                alt="yoga positioning"
+              />
+              <div class="card-body">
                 <h5 class="card-title" id="title"></h5>
                 <p class="card-text" id="description"></p>
-                <h6>What I Offer:</h6>
-                <ul id="offerings"></ul>
               </div>
-              <div class="mt-4 contact-section">
-                <h6>Contact Me:</h6>
-                <p>Email: <a href="#" id="email-link"></a></p>
-                <!-- Social Media Icons -->
-                <div class="social-icons d-flex justify-content-start">
+              <ul class="list-group list-group-flush" id="offerings"></ul>
+              <div class="card-body">
+                <h6>Connect with me</h6>
+                <!-- <a href="#" class="card-link">Card link</a> -->
+                <!-- <a href="#" class="card-link">Another link</a> -->
+                <div class="social-icons d-flex justify-content-center">
                   <a id="facebook-link" target="_blank"
                     ><i class="fab fa-facebook fa-2x"></i
                   ></a>
@@ -63,10 +61,6 @@
         </div>
       </div>
     </div>
-    <footer class="text-center mt-4">
-      <p id="copyright"></p>
-    </footer>
-
     <script src="script.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
